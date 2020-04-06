@@ -3,8 +3,8 @@ title: Manish Pandey
 email: invincible.manish1417@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.
-baseurl: "/invincible" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://invinciblenobita.github.io/my-portfoilio/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hi_im_manish5
 github_username:  InvincibleNobita
 
