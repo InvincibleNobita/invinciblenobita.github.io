@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About Jeykyll
+title: About Jekyll
 permalink: /about/
 ---
 

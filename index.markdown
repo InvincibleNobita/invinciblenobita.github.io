@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-## A brief Introduction about myself
+## A brief Intro
 
 <img class="profile-picture" src="struggler.jpg">
 
@@ -47,5 +47,5 @@ I've also tried my hands at **web and app development** and I'm fully inclined t
 ## Projects  
 
 
-Yet to do..  
-In my resume...
+In my resume...  
+##### (Not many & nothing significant as well)
