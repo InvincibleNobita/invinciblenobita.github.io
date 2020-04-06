@@ -33,7 +33,8 @@ viz., `page.author`
 
 
 #### A for loop in HTML  
-##### I told you all na.... that `html` **is** a _progrmaing language_ .  xD
+##### I told you all na.... that `html` **is** a _progrmaing language_ .  
+**Period** 
 
 {% highlight html %}
 {% for post in site.posts %}
@@ -49,6 +50,9 @@ viz., `page.author`
 
 
 #### Aryan 
+
+
+#### Ayush
 
 
 [Giraffe]: https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
