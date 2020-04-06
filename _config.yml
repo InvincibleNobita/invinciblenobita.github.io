@@ -8,12 +8,6 @@ url: "https://invinciblenobita.github.io/my-portfoilio/" # the base hostname & p
 twitter_username: hi_im_manish5
 github_username:  InvincibleNobita
 
-social:
-  github: InvincibleNobita
-  twitter: hi_im_manish5
-  instagram: invincibletaki
-
-
 # Build settings
 theme: minima
 plugins:
