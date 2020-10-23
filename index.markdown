@@ -7,7 +7,7 @@ layout: default
 
 <img class="profile-picture" src="struggler.jpg">
 
-Hola! I am a freshman undergraduate, pursuing B.Tech in EE from Kalyani Government Engineering College.
+*Hola! I am a freshman undergraduate, pursuing B.Tech in EE from Kalyani Government Engineering College.*
 
 ## Education
 
@@ -44,7 +44,7 @@ I've also tried my hands at **web and app development** and I'm fully inclined t
 
 [Ayush]: https://ayush-kgec.github.io
 
-## Projects  
+###### Projects  
 
 
 In my resume...  
