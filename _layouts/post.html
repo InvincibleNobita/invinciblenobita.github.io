@@ -10,7 +10,7 @@ layout: default
     </div>
     <div class="authorCard">
         <img src="{{ site.baseurl }}{{ site.data.authors[page.author].avatar-img }}" alt="{{ site.baseurl }}{{ site.data.authors[page.author].name }} Avatar"/>
-        <small><em>by <a href="" >{{ site.baseurl }}{{ site.data.authors[page.author].name }}</a><br> on {{page.date | date: "%B %e, %Y" }}</em></small>
+        <small><em>by <a href="" >{{ site.data.authors[page.author].name }}</a><br> on {{page.date | date: "%B %e, %Y" }}</em></small>
     </div>
     <!--<a href="" class="read-featured-blog-post">Read</a><a href="#blurb" class="home-avatar" style="background-image: url('{{ site.baseurl }}/assets/img/hero-image.png');"></a>-->
 </header>
