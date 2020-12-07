@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<header class="blog-index-header-main" style="background-image: url('{{ site.baseurl }}/assets/img/hero-image.png');">
+{% for post in site.posts offset: 0 limit: 1 %}
+<header class="blog-index-header-main" style="background-image: url('{{ site.baseurl }}{{ site.pathToBlogImgBin }}{{ post.featImg }}');">
     <div class="overlay-dark"></div>
     {% include nav.html %}
     <div class="blog-index-title">
@@ -10,3 +11,16 @@ layout: default
     </div>
     <!--<a href="#blurb" class="home-avatar" style="background-image: url('{{ site.baseurl }}/assets/img/hero-image.png');"></a>-->
 </header>
+{% endfor %}
+
+<div class="blogIndexWrapper">
+    {% for post in site.posts %}
+        <div class="blogPostContainer">
+            <a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.baseurl }}{{ site.pathToBlogImgBin }}lowres/{{ post.featImg }}');"></a>
+            <a href="" class="blogCategory">{{ post.categories }}</a>
+            <a href="{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+            <p class="blogExcerpt">{{ post.excerpt }}</p>
+        </div>
+
+    {% endfor %}
+</div>

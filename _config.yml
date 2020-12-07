@@ -41,6 +41,8 @@ facebook_path: https://facebook.com/sac-kegc
 github_path: https://github.com/sac-kegc
 youtube_path: https://youtube.com/sac-kegc
 
+pathToBlogImgBin: /assets/img/blog
+
 # Build settings
 permalink: pretty     # whenever we r going to type a url, we r not going to have the extension on the file
 #theme: minima   /// we dont need this theme as well.. well be using sassand autoprefixer
