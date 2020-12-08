@@ -6,8 +6,8 @@ layout: default
     <div class="overlay-dark"></div>
     {% include nav.html %}
     <div class="blog-index-title">
-        <h1 class="featured-blog-post-title"> Featured Blog Post </h1>
-        <a href="" class="read-featured-blog-post">Read</a>
+        <h1 class="featured-blog-post-title"> {{ post.title }} </h1>
+        <a href="{{ post.url }}" class="read-featured-blog-post">Read</a>
     </div>
     <!--<a href="#blurb" class="home-avatar" style="background-image: url('{{ site.baseurl }}/assets/img/hero-image.png');"></a>-->
 </header>
@@ -16,7 +16,7 @@ layout: default
 <div class="blogIndexWrapper">
     {% for post in site.posts %}
         <div class="blogPostContainer">
-            <a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.baseurl }}{{ site.pathToBlogImgBin }}lowres/{{ post.featImg }}');"></a>
+            <a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.baseurl }}{{ site.pathToBlogImgBin }}{{ post.featImg }}');"></a>
             <a href="" class="blogCategory">{{ post.categories }}</a>
             <a href="{{ post.url }}" class="blogTitle">{{ post.title }}</a>
             <p class="blogExcerpt">{{ post.excerpt }}</p>
